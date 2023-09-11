@@ -1,0 +1,198 @@
+body {
+	background: rgb(156, 214, 230);
+	color: rgb(3, 21, 53);
+	font-size: large;
+	padding: 0%;
+	margin: 0%;
+	font-size: larger;
+}
+nav {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  font-family: "Montserrat", "sans-serif";
+  height: 100px;
+  background-color: #011227;
+  padding: 0 5%;
+}
+nav .logo {
+  float: left;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+}
+nav .links {
+  float: right;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .links li {
+  list-style: none;
+}
+nav .links a {
+  display: block;
+  padding: 1em;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+nav .links a:hover {
+  color: rgb(122, 84, 148);
+}
+nav .links a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+nav .links a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  color: rgb(246, 242, 242);
+}
+#nav-toggle {
+  position: absolute;
+  top: -100px;
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	font-family: sans-serif;
+	border-top: 1px solid hsl(209, 28%, 27%);
+	color: rgb(27, 160, 151);
+	display: inline-block;
+	font-size: 1.5em;
+	margin-bottom: 1.5em;
+	padding-top: 1em;
+}
+
+#welcome{
+	margin-top: 100px;
+	text-align: center;
+	padding: 150px;
+	background-image: none;
+	background-image: url(hapgrad.avif);
+	color: #070006;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	margin: 60px;
+}
+
+h2 {
+	color: rgb(24, 151, 214);
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 1px;
+}
+
+.ayo{
+	text-align: center;
+	background-color: rgb(28, 79, 173);
+	padding-bottom: 40px;
+	color: rgb(2, 17, 60);
+	margin-bottom: 100px;
+	background-image: none;
+	background-image: url(images.png);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+	margin:50px;
+}
+
+
+
+#skills_list{
+	list-style: none;
+}
+
+#skills{
+	background-color: rgb(23, 3, 82);
+	/* padding: 10px 10px; */
+	margin: 0;
+	width: 100%;
+}
+
+
+.lists{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	color: #ccc;
+}
+
+.lists li{
+	background-color: rgb(80, 57, 168);
+	margin: 5px 2px;
+	padding: 4px;
+	border-radius: 3px;
+}
+
+
+#beingsimple{
+	margin-bottom: 100px;
+	text-align: center;
+	background-color: rgb(109, 188, 219);
+	padding-bottom: 200px;
+	padding-top: 100px;
+	color: rgb(22, 35, 48) ;
+}
+
+.project{
+	margin-bottom: 100px;
+    padding-left: 100px;
+	background-image: url(tttt.jpg);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+	background-position: right;
+	margin-left: 700px;
+	text-align: center;
+	color: #000;
+}
+
+#others{
+	margin-bottom: 100px;
+    padding-left: 100px;
+	color: rgb(1, 31, 43);
+	background-image: none;
+	background-image: url(haf.webp);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+	padding-bottom: 40px;
+}
+
+.contact {
+	background: rgb(41, 93, 141);
+    color: aquamarine;
+	padding-bottom: 50px;
+	padding: 80px;
+    text-align: center;
+}
+
+#foot{
+	text-align: center;
+}
+.enjoy{
+	padding:  100px;
+	text-align: center;
+	margin:0px auto;
+	background-image: url(cod.jpg);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
